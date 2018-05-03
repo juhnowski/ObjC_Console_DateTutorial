@@ -10,8 +10,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSDate *now = [NSDate date];
+        NSLog(@"Hello, World! Today: %@", now);
     }
     return 0;
 }
